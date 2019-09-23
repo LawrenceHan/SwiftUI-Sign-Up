@@ -5,6 +5,7 @@
 - Observable object
 - Keyboard avoiding
 - Animation
+- Translate Chinese characters to pinyin
 
 ## Know issues:
 
