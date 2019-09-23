@@ -1,0 +1,19 @@
+/* 
+  File.strings
+  SwiftUISignUp
+
+  Created by Hanguang on 2019/9/23.
+  Copyright © 2019 hanguang. All rights reserved.
+*/
+
+"SignUpUI.Title" = "注册新用户";
+"SignUpUI.lastname" = "名字";
+"SignUpUI.firstname" = "姓氏";
+"SignUpUI.email" = "邮箱地址";
+"SignUpUI.pincode" = "创建PIN码（4位数字）";
+
+"SignUpUI.TopView.Title" = "江南皮革厂倒闭了";
+"SignUpUI.TopView.Headline" = "全场一律20元一律20元：";
+"SignUpUI.TopView.Bullet1" = "• 20元你买不了吃亏买不了上当";
+"SignUpUI.TopView.Bullet2" = "• 加价998连客服一起带回家";
+"SignUpUI.TopView.Bullet3" = "• 现在就拔打订购电话：400-520-8888\n400-520-8888";

@@ -1,0 +1,19 @@
+/* 
+  File.strings
+  SwiftUISignUp
+
+  Created by Hanguang on 2019/9/23.
+  Copyright © 2019 hanguang. All rights reserved.
+*/
+
+"SignUpUI.Title" = "Sign Up";
+"SignUpUI.lastname" = "Lastname";
+"SignUpUI.firstname" = "Firstname";
+"SignUpUI.email" = "Email Address";
+"SignUpUI.pincode" = "Pin Code (4 digits)";
+
+"SignUpUI.TopView.Title" = "Global VIP Access";
+"SignUpUI.TopView.Headline" = "Sign up for free:";
+"SignUpUI.TopView.Bullet1" = "• SwiftUI rocks!";
+"SignUpUI.TopView.Bullet2" = "• SwiftUI awesome!";
+"SignUpUI.TopView.Bullet3" = "• SwiftUI you keep rocking, we keep rolling!";
