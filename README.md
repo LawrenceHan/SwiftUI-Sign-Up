@@ -6,6 +6,8 @@
 - Keyboard avoiding
 - Animation
 
+![Demo Chinese version](demo/demo.gif)
+
 ## Know issues:
 
 - The `TextField` cannot process Chinese character (Xcode GM2 bug)
