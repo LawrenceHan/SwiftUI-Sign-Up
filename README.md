@@ -7,7 +7,7 @@
 - Animation
 - Translate Chinese characters to pinyin
 
-![Demo Chinese version](demo/demo.gif)
+![Demo Chinese version](demo.gif)
 
 ## Know issues:
 
