@@ -17,14 +17,13 @@ struct ContentView: View {
                 ScrollView(showsIndicators: false) {
                     RegisterTopView()
                         .padding(.top, 100)
-                    
-                    PYTextFieldView(type: .lastname, text: user.lastName)
+                    PYTextFieldView(type: .lastname, text: $user.lastName)
                     Divider().padding(.leading).padding(.trailing)
-                    PYTextFieldView(type: .firstname, text: user.firstName)
+                    PYTextFieldView(type: .firstname, text: $user.firstName)
                     Divider().padding(.leading).padding(.trailing)
-                    PYTextFieldView(type: .email, text: user.email)
+                    PYTextFieldView(type: .email, text: $user.email)
                     Divider().padding(.leading).padding(.trailing)
-                    PYTextFieldView(type: .pincode, text: user.pinCode)
+                    PYTextFieldView(type: .pincode, text: $user.pinCode)
                     Divider().padding(.leading).padding(.trailing).padding(.bottom)
                 }
             }.navigationBarTitle("SignUpUI.Title")

@@ -1,10 +1,3 @@
-//
-//  PYTextFieldView.swift
-//  IHGCopyCat
-//
-//  Created by Hanguang on 2019/9/20.
-//  Copyright © 2019 hanguang. All rights reserved.
-//
 
 import SwiftUI
 
@@ -22,7 +15,7 @@ struct PYTextFieldView: View {
     }
     
     var type: PYTextFieldType
-    @State var text: String
+    @Binding var text: String
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -32,20 +25,20 @@ struct PYTextFieldView: View {
                     .transition(
                         .asymmetric(
                             insertion: AnyTransition.opacity.combined(with: .move(edge: .bottom)),
-                            removal: AnyTransition.opacity.combined(with: .slide)
+                            removal: AnyTransition.opacity.combined(with: .move(edge: .top))
                         )
                 )
             }
             
             if type == .lastname || type == .firstname {
-                TextField(type.localizedString, text: $text.animation())
+                TextField(type.localizedString, text: $text)
                     .foregroundColor(.orange)
             } else if type == .email {
-                TextField(type.localizedString, text: $text.animation())
+                TextField(type.localizedString, text: $text)
                     .keyboardType(.emailAddress)
                     .foregroundColor(.orange)
             } else if type == .pincode {
-                TextField(type.localizedString, text: $text.animation())
+                TextField(type.localizedString, text: $text)
                     .keyboardType(.numberPad)
                     .foregroundColor(.orange)
             }
@@ -60,6 +53,6 @@ struct PYTextFieldView: View {
 
 struct PYTextFieldView_Previews: PreviewProvider {
     static var previews: some View {
-        return PYTextFieldView(type: .lastname, text: "")
+        return PYTextFieldView(type: .lastname, text: .constant(""))
     }
 }
